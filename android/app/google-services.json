@@ -1,0 +1,117 @@
+{
+  "project_info": {
+    "project_number": "613527215717",
+    "firebase_url": "https://flutterlogin-1d2da.firebaseio.com",
+    "project_id": "flutterlogin-1d2da",
+    "storage_bucket": "flutterlogin-1d2da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613527215717:android:2781f187d4405f57",
+        "android_client_info": {
+          "package_name": "com.yourcompany.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613527215717-1a55n15sk7n4qhpe8j8acvo0nj95qk5e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwYN6loZLzH20pe1wJiLQnpGSE3PqVdDA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613527215717:android:f669349de8d00103",
+        "android_client_info": {
+          "package_name": "institute.flutter.todomvc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613527215717-1a55n15sk7n4qhpe8j8acvo0nj95qk5e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwYN6loZLzH20pe1wJiLQnpGSE3PqVdDA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613527215717:android:1f48bbebf2cafc0b",
+        "android_client_info": {
+          "package_name": "mtechviral.fdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613527215717-6attj2c7f7ivfpnt67ib48pc7f9cg66j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mtechviral.fdemo",
+            "certificate_hash": "e9286d962238e5d4fc36a7e151a63ef2ee5549da"
+          }
+        },
+        {
+          "client_id": "613527215717-1a55n15sk7n4qhpe8j8acvo0nj95qk5e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwYN6loZLzH20pe1wJiLQnpGSE3PqVdDA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613527215717-1a55n15sk7n4qhpe8j8acvo0nj95qk5e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

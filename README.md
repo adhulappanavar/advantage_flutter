@@ -6,3 +6,5 @@ A new Flutter project.
 
 For help getting started with Flutter, view our online
 [documentation](https://flutter.io/).
+
+E/MethodChannel#plugins.flutter.io/cloud_firestore( 8531): java.lang.IllegalStateException: FirebaseApp with name [DEFAULT] doesn't exist.

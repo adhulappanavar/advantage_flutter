@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import './patients.dart';
 import './products.dart';
 import './about.dart';
+import './firebasecloudstore.dart';
 
 
 class HomePage extends StatefulWidget{
@@ -85,6 +86,23 @@ class _HomePageState extends State<HomePage> {
               }
             ),
             new ListTile(
+              title : new Text("Firestore CRUD"),
+              //Using Cloud Firestore as a Realtime Datastore for CRUD with Dart's Flutter Framework
+              //Tensor Programming
+              //https://www.youtube.com/watch?v=OJ_u34bD_q8&index=52&list=PLJbE2Yu2zumDqr_-hqpAN0nIr6m14TAsd
+              //https://github.com/tensor-programming/flutter_firestore_tutorial
+
+              trailing: new Icon(Icons.arrow_downward),
+              onTap: () {
+                Navigator.of(context).pop();
+                Navigator.of(context).
+                  push(
+                    new MaterialPageRoute(
+                      builder: (BuildContext context) => new FirebasecloudstorePage()
+                      )
+                      );
+              }
+            ),new ListTile(
               title : new Text("About Us"),
               trailing: new Icon(Icons.arrow_downward),
               onTap: () {
