@@ -4,6 +4,7 @@ import './patients.dart';
 import './products.dart';
 import './about.dart';
 import './firebasecloudstore.dart';
+import './reduxfirebasecounter.dart';
 
 
 class HomePage extends StatefulWidget{
@@ -99,6 +100,18 @@ class _HomePageState extends State<HomePage> {
                   push(
                     new MaterialPageRoute(
                       builder: (BuildContext context) => new FirebasecloudstorePage()
+                      )
+                      );
+              }
+            ),new ListTile(
+              title : new Text("Redux Firebase Counter"),
+              trailing: new Icon(Icons.arrow_downward),
+              onTap: () {
+                Navigator.of(context).pop();
+                Navigator.of(context).
+                  push(
+                    new MaterialPageRoute(
+                      builder: (BuildContext context) => new ReduxFirebaseCounterPage()
                       )
                       );
               }

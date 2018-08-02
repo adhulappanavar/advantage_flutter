@@ -21,7 +21,11 @@ class AboutPage extends StatelessWidget {
             new Text("Using Cloud Firestore as a Realtime Datastore for CRUD with Dart's Flutter Framework", style: new TextStyle(fontSize: 20.0)),
             new Text("https://www.youtube.com/watch?v=OJ_u34bD_q8&index=52&list=PLJbE2Yu2zumDqr_-hqpAN0nIr6m14TAsd", style: new TextStyle(fontSize: 20.0)),
             new Text("************* Thanks ***************", style: new TextStyle(fontSize: 20.0)),
-
+            new Text("************* 3 ***************", style: new TextStyle(fontSize: 20.0)),
+            new Text("Flutter, Redux and Firebase Cloud Firestore — in sync", style: new TextStyle(fontSize: 20.0)),
+            new Text("https://medium.com/shift-studio/flutter-redux-and-firebase-cloud-firestore-in-sync-2c1accabdac4", style: new TextStyle(fontSize: 20.0)),
+            new Text("https://github.com/theshiftstudio/flutter_firebase_redux_sync", style: new TextStyle(fontSize: 20.0)),
+            new Text("************* Thanks ***************", style: new TextStyle(fontSize: 20.0)),
           ],
         ),
     );
