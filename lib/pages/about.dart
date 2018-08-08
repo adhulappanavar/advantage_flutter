@@ -18,6 +18,7 @@ class AboutPage extends StatelessWidget {
             new Text("*************** 2 ***************", style: new TextStyle(fontSize: 20.0)),
             new Text("Based on", style: new TextStyle(fontSize: 20.0)),
             new Text("Tensor Programming", style: new TextStyle(fontSize: 20.0)),
+            new Text("https://steemit.com/utopian-io/@tensor/using-cloud-firestore-as-a-realtime-datastore-for-crud-with-dart-s-flutter-framework", style: new TextStyle(fontSize: 20.0)),
             new Text("Using Cloud Firestore as a Realtime Datastore for CRUD with Dart's Flutter Framework", style: new TextStyle(fontSize: 20.0)),
             new Text("https://www.youtube.com/watch?v=OJ_u34bD_q8&index=52&list=PLJbE2Yu2zumDqr_-hqpAN0nIr6m14TAsd", style: new TextStyle(fontSize: 20.0)),
             new Text("************* Thanks ***************", style: new TextStyle(fontSize: 20.0)),
